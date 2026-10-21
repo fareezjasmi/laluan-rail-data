@@ -5,6 +5,8 @@ reads (make_index.py). To add a country: add a Region here, run build_region.py 
 the weekly GitHub Actions job pick it up.
 
 Each feed lists URLs in order of preference; the first that downloads as a valid GTFS zip is used.
+A "{year}" in a URL is tried with this year, then next year (for portals that publish one dataset per
+timetable year).
 """
 from __future__ import annotations
 
@@ -68,7 +70,8 @@ REGIONS: List[Region] = [
     ),
     Region(
         id="ch", name="Switzerland", country="CH", group="europe",
-        feeds=[FeedSource("ch", ckan=("https://data.opentransportdata.swiss", "timetable-{year}-gtfs2020"))],
+        # The portal's API refuses anonymous calls, but each year's dataset has a permalink to its newest file.
+        feeds=[FeedSource("ch", ["https://data.opentransportdata.swiss/dataset/timetable-{year}-gtfs2020/permalink"])],
         osm_pbf=f"{GEOFABRIK}/europe/switzerland-latest.osm.pbf",
         attribution=["Timetables: opentransportdata.swiss (Swiss open data terms)", OSM_CREDIT],
     ),

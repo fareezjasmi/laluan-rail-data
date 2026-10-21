@@ -175,6 +175,11 @@ class RegionPackTest(unittest.TestCase):
         finally:
             shutil.rmtree(tmp)
 
+    def test_year_placeholders_expand_to_this_and_next_year(self):
+        import build_region
+        urls = build_region.expand_years(["https://x/t-{year}/permalink", "https://y/feed.zip"], date(2026, 10, 22))
+        self.assertEqual(urls, ["https://x/t-2026/permalink", "https://x/t-2027/permalink", "https://y/feed.zip"])
+
     def test_every_region_is_well_formed(self):
         from regions import REGIONS
         ids = [r.id for r in REGIONS]

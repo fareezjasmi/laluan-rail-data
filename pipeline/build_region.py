@@ -87,13 +87,24 @@ def ckan_urls(portal: str, pattern: str, today: date) -> List[str]:
     return urls
 
 
+def expand_years(urls: List[str], today: date) -> List[str]:
+    """'.../timetable-{year}-...' -> this year's URL, then next year's."""
+    out = []
+    for url in urls:
+        if "{year}" in url:
+            out += [url.format(year=today.year), url.format(year=today.year + 1)]
+        else:
+            out.append(url)
+    return out
+
+
 def fetch_feeds(reg: Region, work: str, skip: bool) -> List[Tuple[str, str, str]]:
     """[(prefix, path, default_service)] for every feed that downloaded."""
     out = []
     for i, feed in enumerate(reg.feeds):
         dest = os.path.join(work, f"feed-{i}-{feed.prefix}.zip")
         if not (skip and is_gtfs_zip(dest)):
-            urls = list(feed.urls)
+            urls = expand_years(feed.urls, date.today())
             if feed.ckan:
                 urls = ckan_urls(feed.ckan[0], feed.ckan[1], date.today()) + urls
             ok = False
