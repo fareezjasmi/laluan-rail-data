@@ -1,0 +1,83 @@
+Rail bundle report  2026-10-21T23:30:56+00:00
+Output size: 230 KB
+
+Source ktmb: Keretapi Tanah Melayu (feed-0-ktmb.zip)
+Source rapidkl: rapidrail (feed-1-rapidkl.zip)
+
+Stations: 342
+Routes:   17
+Shapes:   16
+Patterns: 152 (from 422 trips)
+
+Routes by service type:
+  BRT             rapidkl:BRT                  Sunway Line  [short='BRT']
+  ETS             ktmb:ETS                     Electric Train Service Padang Besar - JB Sentral  [short='ETS']
+  INTERCITY       ktmb:ERT                     Intercity Ekspres Rakyat Timuran Tumpat - JB Sentral  [short='ERT']
+  INTERCITY       ktmb:SH                      Intercity Shuttle Tumpat - Gemas  [short='SH']
+  KOMUTER         ktmb:100_47300               KTM Butterworth - Padang Besar  [short='Padang Besar Line']
+  KOMUTER         ktmb:100_9000                KTM Butterworth - Ipoh  [short='Ipoh Line']
+  KOMUTER         ktmb:KA15_KD19               KTM Tanjung Malim - Pelabuhan Klang  [short='Port Klang Line']
+  KOMUTER         ktmb:KC05_KB18               KTM Batu Caves - Pulau Sebang/Tampin  [short='Seremban Line']
+  KOMUTER         ktmb:SS                      KTM Komuter Shuttle Selatan Paloh - JB Sentral  [short='Shuttle Selatan']
+  LRT             rapidkl:AG                   Ampang Line  [short='AGL']
+  LRT             rapidkl:KJ                   Kelana Jaya Line  [short='KJL']
+  LRT             rapidkl:PH                   Sri Petaling Line  [short='SPL']
+  LRT             rapidkl:SA                   Shah Alam Line  [short='SAL']
+  MONORAIL        rapidkl:MR                   KL Monorail Line  [short='MRL']
+  MRT             rapidkl:KGL                  Kajang Line  [short='KGL']
+  MRT             rapidkl:PYL                  Putrajaya Line  [short='PYL']
+  SHUTTLE_TEBRAU  ktmb:ST                      Intercity Shuttle Tebrau JB Sentral - Woodlands  [short='ST']
+
+Patterns / departures by service:
+  BRT                 2 patterns     580 departures
+  ETS                45 patterns      82 departures
+  INTERCITY          16 patterns      17 departures
+  KOMUTER            73 patterns     203 departures
+  LRT                 8 patterns    2056 departures
+  MONORAIL            2 patterns     378 departures
+  MRT                 4 patterns     686 departures
+  SHUTTLE_TEBRAU      2 patterns      31 departures
+
+Pipeline counters:
+  shape_points_in: 7280
+  shape_points_out: 2006
+  track_legs_routed: 299
+  track_legs_straight: 150
+  trips_in: 422
+
+Longest end-to-end pattern per service (sample for checking against timetables):
+  BRT             Sunway-Setia Jaya -> USJ7: 15m, 7 stops, dep 06:00
+  ETS             Hat Yai -> KL Sentral: 12h55m, 7 stops, dep 10:20 1005
+  INTERCITY       Merapoh -> Woodlands CIQ: 22h15m, 7 stops, dep 12:00 1021
+  KOMUTER         Pel Klang Sel -> Tanjong Malim: 3h15m, 34 stops, dep 19:30
+  LRT             Gombak -> Putra Heights: 1h37m, 37 stops, dep 06:00
+  MONORAIL        KL Sentral -> Titiwangsa: 25m, 11 stops, dep 06:00
+  MRT             Kajang -> Kwasa Damansara: 1h28m, 29 stops, dep 06:00
+  SHUTTLE_TEBRAU  JB Sentral -> Woodlands CIQ: 5m, 2 stops, dep 05:00 61
+
+Sample train labels / headsigns (first 25 ETS-family patterns):
+  ETS           headsign='' labels=['1004']
+  ETS           headsign='' labels=['1005']
+  ETS           headsign='' labels=['1010']
+  ETS           headsign='' labels=['1011']
+  ETS           headsign='' labels=['1054']
+  ETS           headsign='' labels=['1055']
+  ETS           headsign='' labels=['9074', '9008']
+  ETS           headsign='' labels=['9011', '9077']
+  ETS           headsign='' labels=['9041', '9045', '9049', '9055']
+  ETS           headsign='' labels=['9044', '9052', '9056', '9058']
+  ETS           headsign='' labels=['9108']
+  ETS           headsign='' labels=['9109']
+  ETS           headsign='' labels=['9121', '9123', '9173', '9133']
+  ETS           headsign='' labels=['9124', '9130', '9176', '9136']
+  ETS           headsign='' labels=['9171']
+  ETS           headsign='' labels=['9178']
+  ETS           headsign='' labels=['9209']
+  ETS           headsign='' labels=['9214']
+  ETS           headsign='' labels=['9223', '9225']
+  ETS           headsign='' labels=['9224', '9226', '9238']
+  ETS           headsign='' labels=['9273', '9233']
+  ETS           headsign='' labels=['9251']
+  ETS           headsign='' labels=['9256']
+  ETS           headsign='' labels=['9276']
+  ETS           headsign='' labels=['9323']
