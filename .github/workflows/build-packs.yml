@@ -1,0 +1,128 @@
+# Builds every region's pack from open timetables + OpenStreetMap track, weekly, and publishes them
+# (with the world index the app's globe reads) as assets of the "packs" release:
+#   https://github.com/<owner>/laluan-rail-data/releases/download/packs/index.json
+# Run it by hand from the Actions tab ("Run workflow"), optionally for a few regions only.
+name: Build region packs
+
+on:
+  schedule:
+    - cron: "17 2 * * 1"   # Mondays 02:17 UTC
+  workflow_dispatch:
+    inputs:
+      regions:
+        description: "Region ids, comma separated (blank = all), e.g. de,fr"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths: ["pipeline/**", ".github/workflows/build-packs.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: packs
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install osmium
+      - run: python -m unittest discover -s pipeline -v
+
+  plan:
+    needs: test
+    runs-on: ubuntu-latest
+    outputs:
+      regions: ${{ steps.pick.outputs.regions }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: pick
+        env:
+          WANT: ${{ github.event.inputs.regions }}
+        run: |
+          python3 - >> "$GITHUB_OUTPUT" <<'PY'
+          import json, os, sys
+          sys.path.insert(0, "pipeline")
+          from regions import REGIONS
+          want = [x.strip() for x in os.environ.get("WANT", "").split(",") if x.strip()]
+          print("regions=" + json.dumps([r.id for r in REGIONS if not want or r.id in want]))
+          PY
+
+  build:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        region: ${{ fromJson(needs.plan.outputs.regions) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install osmium
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q osmium-tool
+          pip install osmium
+      - name: Build ${{ matrix.region }}
+        run: |
+          # The runner's /mnt disk is the big one; country extracts are several GB.
+          sudo mkdir -p /mnt/work && sudo chown "$USER" /mnt/work
+          python3 pipeline/build_region.py "${{ matrix.region }}" --work /mnt/work --out dist
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pack-${{ matrix.region }}
+          path: dist/
+          if-no-files-found: ignore
+          retention-days: 14
+
+  publish:
+    needs: build
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      BASE: https://github.com/${{ github.repository }}/releases/download/packs
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: pack-*
+          merge-multiple: true
+          path: dist
+      - name: Make the world index
+        run: python3 pipeline/make_index.py dist --base-url "$BASE" --previous "$BASE/index.json"
+      - name: Publish packs, then the index that points at them
+        run: |
+          gh release view packs >/dev/null 2>&1 || gh release create packs --title "Region packs" \
+            --notes "Rail timetables and track for the Laluan app, rebuilt weekly. See README for sources and licences."
+          shopt -s nullglob
+          packs=(dist/*.json.deflate)
+          if [ ${#packs[@]} -gt 0 ]; then gh release upload packs "${packs[@]}" --clobber; fi
+          gh release upload packs dist/index.json --clobber
+      - name: Save the reports
+        run: |
+          git config user.name "laluan-bot"
+          git config user.email "laluan-bot@users.noreply.github.com"
+          if git fetch -q origin reports:reports 2>/dev/null; then git checkout -q reports; else git checkout -q --orphan reports; fi
+          git rm -rq --cached . 2>/dev/null || true
+          mkdir -p reports
+          cp dist/*.report.txt reports/ 2>/dev/null || true
+          python3 - <<'PY'
+          import json
+          idx = json.load(open("dist/index.json"))
+          lines = ["| Region | Version | Pack | Stations | Departures | Services |", "|---|---|---|---|---|---|"]
+          for r in idx["regions"]:
+              lines.append(f"| {r['name']} | {r['version']} | {r['packBytes']/1e6:.1f} MB | {r['stations']} | {r['departures']} | {', '.join(r['services'])} |")
+          open("reports/SUMMARY.md", "w").write("# Latest build\n\n" + "\n".join(lines) + "\n")
+          PY
+          git add reports
+          git commit -qm "Reports for run ${{ github.run_id }}" || true
+          git push -q origin HEAD:reports
