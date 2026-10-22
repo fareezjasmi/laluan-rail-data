@@ -1,4 +1,4 @@
-Rail bundle report  2026-10-22T00:09:51+00:00
+Rail bundle report  2026-10-22T09:54:35+00:00
 Output size: 7199 KB
 
 Source de: Ceske Drahy, ZSSK, HZZP, MAV, ÖBB, SBB, DB Fernverkehr AG, BahnTouristikExpress, DB Fernverkehr (Codesharing), SNCF, Nederlandse Spoorwegen, Dänische Staatsbahnen, PKP Intercity (feed-0-de.zip)

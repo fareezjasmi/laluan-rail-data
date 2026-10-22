@@ -1,12 +1,12 @@
-Rail bundle report  2026-10-22T00:09:42+00:00
-Output size: 1245 KB
+Rail bundle report  2026-10-22T09:50:41+00:00
+Output size: 1248 KB
 
 Source nl: allGo (Keolis), Arriva, Blauwnet, Bravo, Bravo (Arriva), Bravo (Hermes), Breng, Connexxion, De Lijn, Rederij Doeksen, EBS, GVB, Hermes, HTM, Blauwnet Arriva, Blauwnet Keolis, DB, Eurobahn, European Sl (feed-0-nl.zip)
 
 Stations: 536
-Routes:   178
-Shapes:   285
-Patterns: 1167 (from 6516 trips)
+Routes:   179
+Shapes:   283
+Patterns: 1170 (from 6516 trips)
 
 Routes by service type:
   HIGH_SPEED      nl:138956                    Amsterdam Centraal <-> London St. Pancras Int. EST9100  [short='Eurostar']
@@ -15,8 +15,8 @@ Routes by service type:
   HIGH_SPEED      nl:159461                    Paris-Nord <-> Amsterdam Centraal EST9300  [short='Eurostar']
   HIGH_SPEED      nl:160553                    Amsterdam Centraal <-> Frankfurt (M) Hbf ICE100  [short='ICE']
   HIGH_SPEED      nl:160718                    Amsterdam Centraal <-> München Hbf ICE200  [short='ICE']
-  HIGH_SPEED      nl:161182                    Amsterdam Centraal <-> Hannover Hbf ICE240  [short='ICE']
-  HIGH_SPEED      nl:161421                    Amsterdam Centraal <-> Hannover Hbf ICE140  [short='ICE']
+  HIGH_SPEED      nl:163616                    Amsterdam Centraal <-> Berlin Südkreuz ICE140  [short='ICE']
+  HIGH_SPEED      nl:163617                    Amsterdam Centraal <-> Berlin Südkreuz ICE240  [short='ICE']
   INTERCITY       nl:114870                    Enkhuizen <-> Amsterdam Centraal IC12900  [short='Intercity']
   INTERCITY       nl:114871                    Rotterdam Centraal <-> Utrecht Centraal IC2000  [short='Intercity']
   INTERCITY       nl:114873                    Alkmaar <-> Maastricht IC2700  [short='Intercity']
@@ -43,14 +43,10 @@ Routes by service type:
   INTERCITY       nl:143259                    Brussel-Zuid <-> Lelystad Centrum ECD9500  [short='Eurocity Direct']
   INTERCITY       nl:147950                    Utrecht Centraal <-> Rotterdam Centraal IC1400  [short='Intercity']
   INTERCITY       nl:160535                    Utrecht Centraal <-> Rotterdam Centraal IC11400  [short='Intercity']
-  INTERCITY       nl:160758                    Utrecht Centraal <-> Zwolle IC80600  [short='Intercity']
-  INTERCITY       nl:161173                    Alkmaar <-> Amsterdam Centraal IC21400  [short='Intercity']
   INTERCITY       nl:162835                    Schiphol Airport <-> Rotterdam Centraal IC81400  [short='Intercity']
-  INTERCITY       nl:162836                    Den Haag Centraal <-> Deventer IC81700  [short='Intercity']
   INTERCITY       nl:162837                    Haarlem <-> Amsterdam Centraal IC82100  [short='Intercity']
   INTERCITY       nl:162838                    Maastricht <-> Eindhoven Centraal IC82900  [short='Intercity']
   INTERCITY       nl:162840                    Amsterdam Centraal <-> Arnhem Centraal  [short='Intercity']
-  INTERCITY       nl:163030                    Den Helder <-> Amsterdam Centraal IC83000  [short='Intercity']
   INTERCITY       nl:163247                    Schiphol Airport <-> Lelystad Centrum IC1000  [short='Intercity']
   INTERCITY       nl:163248                    Schiedam Centrum <-> Breda IC81100  [short='Intercity']
   INTERCITY       nl:163249                    Den Haag HS <-> Roosendaal IC82200  [short='Intercity']
@@ -59,6 +55,12 @@ Routes by service type:
   INTERCITY       nl:163252                    's-Hertogenbosch <-> Vlissingen IC83900  [short='Intercity']
   INTERCITY       nl:163253                    Schiphol Airport <-> Amersfoort Schothorst  [short='Intercity']
   INTERCITY       nl:163254                    Zwijndrecht <-> Eindhoven Centraal  [short='Intercity']
+  INTERCITY       nl:163601                    Rotterdam Centraal <-> Eindhoven Centraal IC21400  [short='Intercity']
+  INTERCITY       nl:163602                    Den Haag Centraal <-> Amersfoort Centraal IC81700  [short='Intercity']
+  INTERCITY       nl:163603                    Heerhugowaard <-> Alkmaar IC83000  [short='Intercity']
+  INTERCITY       nl:163604                    Hilversum <-> Amersfoort Schothorst  [short='Intercity']
+  INTERCITY       nl:163605                    Amsterdam Centraal <-> Haarlem  [short='Intercity']
+  INTERCITY       nl:163606                    Rotterdam Centraal <-> Utrecht Centraal  [short='Intercity']
   INTERCITY       nl:17562                     Rotterdam Centraal <-> Utrecht Centraal IC2800  [short='Intercity']
   INTERCITY       nl:17658                     Zwolle <-> Roosendaal IC3600  [short='Intercity']
   INTERCITY       nl:17661                     Amsterdam Centraal <-> Den Haag Centraal IC2100  [short='Intercity']
@@ -92,7 +94,6 @@ Routes by service type:
   REGIONAL        nl:124474                    Den Haag Centraal <-> 's-Hertogenbosch SPR6000  [short='Sprinter']
   REGIONAL        nl:125904                    Amersfoort Centraal <-> Harderwijk SPR5300  [short='Sprinter']
   REGIONAL        nl:129445                    Groningen Europapark <-> Leeuwarden S37300  [short='Sneltrein RE1']
-  REGIONAL        nl:139843                    Zwolle <-> Groningen S31500  [short='Sneltrein RE8']
   REGIONAL        nl:139847                    Groningen <-> Leeuwarden ST37400  [short='Stoptrein RS1']
   REGIONAL        nl:139849                    Winschoten <-> Eemshaven ST37600  [short='Stoptrein RS4']
   REGIONAL        nl:139852                    Zwolle <-> Coevorden S13800  [short='Sneltrein RE20']
@@ -131,7 +132,6 @@ Routes by service type:
   REGIONAL        nl:145175                    Winschoten <-> Delfzijl ST37700  [short='Stoptrein RS6']
   REGIONAL        nl:146790                    Maastricht <-> Schiphol Airport NT32700  [short='Nachttrein']
   REGIONAL        nl:154207                    Uitgeest <-> Amsterdam Centraal SPR14800  [short='Sprinter']
-  REGIONAL        nl:159825                    Enschede <-> Dortmund Hbf ST20200  [short='Stoptrein RB51']
   REGIONAL        nl:160507                    Heerlen <-> Maastricht Randwyck ST2000  [short='Stoptrein RS18']
   REGIONAL        nl:160545                    Rotterdam Centraal <-> Rotterdam Stadion  [short='Sprinter']
   REGIONAL        nl:160745                    Winschoten <-> Groningen S37900  [short='Sneltrein RE6']
@@ -149,8 +149,6 @@ Routes by service type:
   REGIONAL        nl:162823                    Nijmegen <-> Boxmeer ST2200  [short='Stoptrein RS11']
   REGIONAL        nl:162824                    Amsterdam Centraal <-> Berlin Gesundbrunnen GV13400  [short='GoVolta']
   REGIONAL        nl:162843                    Breukelen <-> Rotterdam Centraal SPR84000  [short='Sprinter']
-  REGIONAL        nl:162846                    Utrecht Centraal <-> 's-Hertogenbosch SPR86000  [short='Sprinter']
-  REGIONAL        nl:162847                    Utrecht Centraal <-> Tiel SPR86700  [short='Sprinter']
   REGIONAL        nl:162848                    Uitgeest <-> Utrecht Centraal SPR87300  [short='Sprinter']
   REGIONAL        nl:162849                    Zwolle <-> Lelystad Centrum SPR89000  [short='Sprinter']
   REGIONAL        nl:162850                    Zwolle <-> Deventer  [short='Sprinter']
@@ -165,6 +163,9 @@ Routes by service type:
   REGIONAL        nl:163258                    Den Haag Centraal <-> Delft Campus SPR85100  [short='Sprinter']
   REGIONAL        nl:163259                    Eindhoven Centraal <-> Weert SPR86400  [short='Sprinter']
   REGIONAL        nl:163260                    Amsterdam Centraal <-> Hoofddorp SPR88100  [short='Sprinter']
+  REGIONAL        nl:163580                    Enschede <-> Münster (Westf) Hbf ST20200  [short='Stoptrein RB64']
+  REGIONAL        nl:163608                    Sprinter Amsterdam Centraal <-> Weesp  [short='Sprinter']
+  REGIONAL        nl:163618                    Nieuw Amsterdam <-> Emmen ST36400  [short='Stoptrein']
   REGIONAL        nl:17627                     Utrecht Centraal <-> Baarn SPR5500  [short='Sprinter']
   REGIONAL        nl:17641                     Utrecht Centraal <-> Zwolle SPR5600  [short='Sprinter']
   REGIONAL        nl:17748                     Uitgeest <-> Rotterdam Centraal SPR4000  [short='Sprinter']
@@ -189,22 +190,22 @@ Routes by service type:
   REGIONAL        nl:90312                     Lelystad Centrum <-> Leeuwarden SPR9000  [short='Sprinter']
 
 Patterns / departures by service:
-  HIGH_SPEED         53 patterns      64 departures
+  HIGH_SPEED         55 patterns      64 departures
   INTERCITY         346 patterns    1558 departures
   NIGHT               6 patterns       6 departures
-  REGIONAL          762 patterns    4888 departures
+  REGIONAL          763 patterns    4888 departures
 
 Pipeline counters:
-  nl.routes_skipped_not_rail: 2867
-  nl.trips_not_on_service_day: 23043
-  shape_points_in: 175620
-  shape_points_out: 45586
+  nl.routes_skipped_not_rail: 2886
+  nl.trips_not_on_service_day: 25802
+  shape_points_in: 174340
+  shape_points_out: 45658
   trips_in: 6516
 
 Longest end-to-end pattern per service (sample for checking against timetables):
   HIGH_SPEED      München Hbf -> Amsterdam Centraal: 7h34m, 14 stops, dep 14:20 224
   INTERCITY       Den Helder -> Maastricht: 3h44m, 19 stops, dep 07:16 2729
   NIGHT           Amsterdam Centraal -> Innsbruck Hbf: 15h09m, 14 stops, dep 17:40 421
-  REGIONAL        Berlin-Spandau -> Amsterdam Centraal: 7h40m, 8 stops, dep 16:15 328
+  REGIONAL        Amsterdam Centraal -> Berlin Gesundbrunnen: 32h01m, 7 stops, dep 07:05 13427
 
 Sample train labels / headsigns (first 25 ETS-family patterns):

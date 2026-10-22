@@ -1,4 +1,4 @@
-Rail bundle report  2026-10-22T00:11:18+00:00
+Rail bundle report  2026-10-22T09:55:44+00:00
 Output size: 4690 KB
 
 Source fr: CFF, SNCF VOYAGEURS, SNCF Voyageurs SA, SNCF Voyageurs EA, SNCF Voyageurs LO, TMR SA, SNCF Voyageurs BO, OCEdefault (feed-0-fr.zip)

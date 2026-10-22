@@ -1,4 +1,4 @@
-Rail bundle report  2026-10-22T00:12:47+00:00
+Rail bundle report  2026-10-22T09:53:57+00:00
 Output size: 2158 KB
 
 Source es: RENFE OPERADORA (feed-0-es.zip)

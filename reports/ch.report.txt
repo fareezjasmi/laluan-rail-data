@@ -1,4 +1,4 @@
-Rail bundle report  2026-10-22T00:08:04+00:00
+Rail bundle report  2026-10-22T09:50:21+00:00
 Output size: 2471 KB
 
 Source ch: Basler Verkehrsbetriebe, Schweizerische Bundesbahnen SBB, THURBO, BLS AG (bls), Rhätische Bahn, Baselland Transport, Sihltal-Zürich-Uetliberg-Bahn, Verkehrsbetriebe Zürich INFO+, Aare Seeland mobil (s (feed-0-ch.zip)
@@ -6,7 +6,7 @@ Source ch: Basler Verkehrsbetriebe, Schweizerische Bundesbahnen SBB, THURBO, BLS
 Stations: 2939
 Routes:   926
 Shapes:   0
-Patterns: 5220 (from 19772 trips)
+Patterns: 5221 (from 19772 trips)
 
 Routes by service type:
   HIGH_SPEED      ch:91-1A-j26-1               001A  [short='001A']
@@ -940,13 +940,13 @@ Patterns / departures by service:
   HIGH_SPEED        292 patterns     405 departures
   INTERCITY         166 patterns     469 departures
   NIGHT               6 patterns       8 departures
-  REGIONAL         2918 patterns    7663 departures
+  REGIONAL         2919 patterns    7663 departures
   REGIONAL_EXPRESS   660 patterns    2358 departures
   SUBURBAN         1178 patterns    8869 departures
 
 Pipeline counters:
-  ch.routes_skipped_not_rail: 4261
-  ch.trips_not_on_service_day: 253759
+  ch.routes_skipped_not_rail: 4262
+  ch.trips_not_on_service_day: 251307
   track_legs_routed: 3536
   track_legs_straight: 4212
   trips_in: 19772
