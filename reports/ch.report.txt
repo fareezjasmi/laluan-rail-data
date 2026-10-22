@@ -1,4 +1,4 @@
-Rail bundle report  2026-10-21T23:50:09+00:00
+Rail bundle report  2026-10-22T00:08:04+00:00
 Output size: 2471 KB
 
 Source ch: Basler Verkehrsbetriebe, Schweizerische Bundesbahnen SBB, THURBO, BLS AG (bls), Rhätische Bahn, Baselland Transport, Sihltal-Zürich-Uetliberg-Bahn, Verkehrsbetriebe Zürich INFO+, Aare Seeland mobil (s (feed-0-ch.zip)

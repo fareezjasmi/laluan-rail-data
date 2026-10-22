@@ -1,12 +1,12 @@
-Rail bundle report  2026-10-21T23:53:06+00:00
-Output size: 4691 KB
+Rail bundle report  2026-10-22T00:11:18+00:00
+Output size: 4690 KB
 
 Source fr: CFF, SNCF VOYAGEURS, SNCF Voyageurs SA, SNCF Voyageurs EA, SNCF Voyageurs LO, TMR SA, SNCF Voyageurs BO, OCEdefault (feed-0-fr.zip)
 
 Stations: 2746
 Routes:   624
 Shapes:   0
-Patterns: 9914 (from 9914 trips)
+Patterns: 9922 (from 9922 trips)
 
 Routes by service type:
   HIGH_SPEED      fr:FR:Line::58c0c9b7-3765-46af-85a3-f193f3030e9b: Est - Nantes TGV  [short='061A']
@@ -637,14 +637,14 @@ Routes by service type:
 Patterns / departures by service:
   HIGH_SPEED          8 patterns       8 departures
   INTERCITY          82 patterns      82 departures
-  REGIONAL         9824 patterns    9824 departures
+  REGIONAL         9832 patterns    9832 departures
 
 Pipeline counters:
   fr.routes_skipped_not_rail: 139
-  fr.trips_not_on_service_day: 46377
-  track_legs_routed: 6150
-  track_legs_straight: 1859
-  trips_in: 9914
+  fr.trips_not_on_service_day: 46369
+  track_legs_routed: 6147
+  track_legs_straight: 1864
+  trips_in: 9922
 
 Longest end-to-end pattern per service (sample for checking against timetables):
   HIGH_SPEED      Strasbourg -> Bordeaux Saint-Jean: 6h01m, 11 stops, dep 14:01

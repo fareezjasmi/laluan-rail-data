@@ -1,13 +1,13 @@
-Rail bundle report  2026-10-21T23:49:22+00:00
-Output size: 7190 KB
+Rail bundle report  2026-10-22T00:09:51+00:00
+Output size: 7199 KB
 
 Source de: Ceske Drahy, ZSSK, HZZP, MAV, ÖBB, SBB, DB Fernverkehr AG, BahnTouristikExpress, DB Fernverkehr (Codesharing), SNCF, Nederlandse Spoorwegen, Dänische Staatsbahnen, PKP Intercity (feed-0-de.zip)
 Source de: Rhenus Veniro, Ceske Drahy, NordWestBahn, Dessau-Wörlitzer Eisenbahn, CFL, SDG Sächsische Dampfeisenbahngesellschaft mbH, Go-Ahead, Süd-Thüringen-Bahn, vogtlandbahn - Die Länderbahn GmbH DLB, Bayerisc (feed-1-de.zip)
 
-Stations: 7393
+Stations: 7397
 Routes:   938
 Shapes:   0
-Patterns: 14478 (from 43620 trips)
+Patterns: 14421 (from 43559 trips)
 
 Routes by service type:
   HIGH_SPEED      de:11                        ICE 15  [short='ICE 15']
@@ -950,22 +950,22 @@ Routes by service type:
   SUBURBAN        de:99                        S15  [short='S15']
 
 Patterns / departures by service:
-  HIGH_SPEED        622 patterns     766 departures
-  INTERCITY         276 patterns     443 departures
-  NIGHT              33 patterns      34 departures
+  HIGH_SPEED        595 patterns     742 departures
+  INTERCITY         248 patterns     408 departures
+  NIGHT              31 patterns      32 departures
   REGIONAL         7197 patterns   18924 departures
   REGIONAL_EXPRESS  3872 patterns    7841 departures
   SUBURBAN         2478 patterns   15612 departures
 
 Pipeline counters:
-  de.trips_not_on_service_day: 72360
-  track_legs_routed: 12962
-  track_legs_straight: 6064
-  trips_in: 43620
+  de.trips_not_on_service_day: 72421
+  track_legs_routed: 12951
+  track_legs_straight: 6073
+  trips_in: 43559
 
 Longest end-to-end pattern per service (sample for checking against timetables):
-  HIGH_SPEED      Hamburg, Hamburg-Altona -> München Hbf: 10h37m, 21 stops, dep 19:26
-  INTERCITY       Chelm -> Swinoujscie: 12h21m, 40 stops, dep 18:18
+  HIGH_SPEED      Hamburg, Hamburg-Altona -> München Hbf: 11h25m, 17 stops, dep 19:26
+  INTERCITY       Chelm -> Swinoujscie: 12h43m, 40 stops, dep 18:28
   NIGHT           Praha hl.n. -> Bruxelles Midi: 16h30m, 16 stops, dep 18:00
   REGIONAL        Amsterdam Centraal -> Wien Hauptbahnhof: 16h08m, 16 stops, dep 17:40
   REGIONAL_EXPRESS Elsterwerda, Bahnhof -> Wismar Bahnhof: 5h17m, 45 stops, dep 19:29

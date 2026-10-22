@@ -1,4 +1,4 @@
-Rail bundle report  2026-10-21T23:50:21+00:00
+Rail bundle report  2026-10-22T00:09:42+00:00
 Output size: 1245 KB
 
 Source nl: allGo (Keolis), Arriva, Blauwnet, Bravo, Bravo (Arriva), Bravo (Hermes), Breng, Connexxion, De Lijn, Rederij Doeksen, EBS, GVB, Hermes, HTM, Blauwnet Arriva, Blauwnet Keolis, DB, Eurobahn, European Sl (feed-0-nl.zip)

@@ -1,4 +1,4 @@
-Rail bundle report  2026-10-21T23:53:27+00:00
+Rail bundle report  2026-10-22T00:12:47+00:00
 Output size: 2158 KB
 
 Source es: RENFE OPERADORA (feed-0-es.zip)
@@ -1343,7 +1343,7 @@ Pipeline counters:
   trips_skipped_too_short: 10
 
 Longest end-to-end pattern per service (sample for checking against timetables):
-  HIGH_SPEED      Madrid-Puerta de Atocha-Almudena Grandes -> Marseille St Charles: 8h44m, 14 stops, dep 12:50 09725
+  HIGH_SPEED      Madrid-Puerta de Atocha-Almudena Grandes -> Marseille St Charles: 8h42m, 14 stops, dep 12:50 09725
   INTERCITY       Vigo Urzaiz -> Barcelona-Sants: 14h08m, 25 stops, dep 07:32 00621
   REGIONAL        Feve-León -> Bilbao la Concordia: 8h07m, 55 stops, dep 13:40 71891
   REGIONAL_EXPRESS Sevilla-Santa Justa -> Madrid-Atocha Cercanías: 9h46m, 25 stops, dep 10:30 35807
