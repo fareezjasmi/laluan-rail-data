@@ -102,7 +102,7 @@ jobs:
       - name: Publish packs, then the index that points at them
         run: |
           gh release view packs >/dev/null 2>&1 || gh release create packs --title "Region packs" \
-            --notes "Rail timetables and track for the Laluan app, rebuilt weekly. See README for sources and licences."
+            --notes "Rail timetables and track for the FocusTrack app, rebuilt weekly. See README for sources and licences."
           shopt -s nullglob
           packs=(dist/*.json.deflate)
           if [ ${#packs[@]} -gt 0 ]; then gh release upload packs "${packs[@]}" --clobber; fi

@@ -1,6 +1,6 @@
-# Laluan rail data
+# FocusTrack rail data
 
-Open rail timetables and real track, packed for the Laluan focus app: every focus session is a real
+Open rail timetables and real track, packed for the FocusTrack focus app: every focus session is a real
 train ride, on the real timetable, along the real line.
 
 A GitHub Actions job (`.github/workflows/build-packs.yml`) rebuilds every region weekly and publishes
@@ -18,6 +18,8 @@ the packs plus `index.json` (the list the app's globe shows) to the
 | Spain | Renfe Operadora (AVE, Larga/Media Distancia, Cercanías) | Renfe open data |
 
 Track geometry: © OpenStreetMap contributors, ODbL (Geofabrik extracts).
+
+The app's website, privacy policy and support pages live in `docs/` (GitHub Pages).
 
 ## How a pack is made
 
