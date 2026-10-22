@@ -301,10 +301,11 @@ def classify_route_eu(route: Dict[str, str], agency: str = "", default: str = ""
         except ValueError:
             found = ""
     service = found or default or "REGIONAL"
-    if short and len(short) <= 9:
+    # Only real product names make a badge ("RE 5", "S3", "TGV"); bare line numbers like "001A" do not.
+    if short and len(short) <= 9 and short[0].isalpha():
         badge = short
     else:
-        token = _product_token(short or desc)
+        token = _product_token(desc) or _product_token(short)
         badge = token if 0 < len(token) <= 9 else ""
     return service, badge
 

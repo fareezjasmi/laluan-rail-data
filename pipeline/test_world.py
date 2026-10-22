@@ -100,6 +100,11 @@ class EuropeanClassifierTest(unittest.TestCase):
         self.check("SUBURBAN", "S3", route_short_name="S3")
         self.check("SUBURBAN", "RER B", route_short_name="RER B")
 
+    def test_line_numbers_are_not_badges(self):
+        self.assertEqual(bb.classify_route_eu({"route_short_name": "001A", "route_desc": "EC", "route_type": "102"}),
+                         ("INTERCITY", "EC"))
+        self.assertEqual(bb.classify_route_eu({"route_short_name": "801A", "route_type": "101"}), ("HIGH_SPEED", ""))
+
     def test_names_and_agencies_when_short_name_is_missing(self):
         service, _ = bb.classify_route_eu({"route_long_name": "TER Hauts-de-France", "route_type": "2"})
         self.assertEqual(service, "REGIONAL")
@@ -179,6 +184,16 @@ class RegionPackTest(unittest.TestCase):
         import build_region
         urls = build_region.expand_years(["https://x/t-{year}/permalink", "https://y/feed.zip"], date(2026, 10, 22))
         self.assertEqual(urls, ["https://x/t-2026/permalink", "https://x/t-2027/permalink", "https://y/feed.zip"])
+
+    def test_bbox_ignores_far_through_trains(self):
+        import build_region
+        stations = [{"lat": 46 + i / 100, "lon": 7 + i / 100} for i in range(97)]
+        stations += [{"lat": 43.7, "lon": 7.27}, {"lat": 47.2, "lon": -1.55}, {"lat": 48.7, "lon": 6.2}]  # Nice, Nantes, Nancy
+        bundle = {"stations": stations, "patterns": [{"stops": [[i, 0, 0] for i in range(len(stations))]}]}
+        south, west, north, east = build_region.bbox(bundle)
+        self.assertGreater(south, 45.9)
+        self.assertGreater(west, 6.9)
+        self.assertLess(north, 47.0)
 
     def test_every_region_is_well_formed(self):
         from regions import REGIONS

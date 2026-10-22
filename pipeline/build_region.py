@@ -176,11 +176,19 @@ def sketch_lines(bundle: dict, tolerance_m: float = 900.0) -> List[str]:
     return out
 
 
-def bbox(bundle: dict) -> List[float]:
+def bbox(bundle: dict, trim: float = 0.03) -> List[float]:
+    """The area the region's stations cover, ignoring the farthest few percent each way.
+
+    National feeds include through-trains deep into neighbouring countries (Swiss trains to Nice,
+    German ones to Vienna); without trimming, a small country's box would swallow its neighbours and
+    the globe would pick the wrong country on a tap.
+    """
     used = {s[0] for p in bundle["patterns"] for s in p["stops"]}
-    lats = [bundle["stations"][i]["lat"] for i in used]
-    lons = [bundle["stations"][i]["lon"] for i in used]
-    return [round(min(lats), 4), round(min(lons), 4), round(max(lats), 4), round(max(lons), 4)]
+    lats = sorted(bundle["stations"][i]["lat"] for i in used)
+    lons = sorted(bundle["stations"][i]["lon"] for i in used)
+    k = int(len(lats) * trim) if len(lats) >= 40 else 0
+    lo, hi = k, len(lats) - 1 - k
+    return [round(lats[lo], 4), round(lons[lo], 4), round(lats[hi], 4), round(lons[hi], 4)]
 
 
 # ---------------------------------------------------------------- build
