@@ -1,5 +1,5 @@
-Rail bundle report  2026-10-22T09:46:54+00:00
-Output size: 230 KB
+Rail bundle report  2026-10-26T07:47:21+00:00
+Output size: 227 KB
 
 Source ktmb: Keretapi Tanah Melayu (feed-0-ktmb.zip)
 Source rapidkl: rapidrail (feed-1-rapidkl.zip)
@@ -7,7 +7,7 @@ Source rapidkl: rapidrail (feed-1-rapidkl.zip)
 Stations: 342
 Routes:   17
 Shapes:   16
-Patterns: 152 (from 422 trips)
+Patterns: 142 (from 422 trips)
 
 Routes by service type:
   BRT             rapidkl:BRT                  Sunway Line  [short='BRT']
@@ -32,7 +32,7 @@ Patterns / departures by service:
   BRT                 2 patterns     580 departures
   ETS                45 patterns      82 departures
   INTERCITY          16 patterns      17 departures
-  KOMUTER            73 patterns     203 departures
+  KOMUTER            63 patterns     189 departures
   LRT                 8 patterns    2056 departures
   MONORAIL            2 patterns     378 departures
   MRT                 4 patterns     686 departures
@@ -42,7 +42,7 @@ Pipeline counters:
   shape_points_in: 7280
   shape_points_out: 2006
   track_legs_routed: 299
-  track_legs_straight: 150
+  track_legs_straight: 148
   trips_in: 422
 
 Longest end-to-end pattern per service (sample for checking against timetables):

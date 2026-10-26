@@ -1,12 +1,12 @@
-Rail bundle report  2026-10-22T09:55:44+00:00
-Output size: 4690 KB
+Rail bundle report  2026-10-26T07:59:27+00:00
+Output size: 4684 KB
 
 Source fr: CFF, SNCF VOYAGEURS, SNCF Voyageurs SA, SNCF Voyageurs EA, SNCF Voyageurs LO, TMR SA, SNCF Voyageurs BO, OCEdefault (feed-0-fr.zip)
 
 Stations: 2746
-Routes:   624
+Routes:   612
 Shapes:   0
-Patterns: 9922 (from 9922 trips)
+Patterns: 9919 (from 9919 trips)
 
 Routes by service type:
   HIGH_SPEED      fr:FR:Line::58c0c9b7-3765-46af-85a3-f193f3030e9b: Est - Nantes TGV  [short='061A']
@@ -522,7 +522,6 @@ Routes by service type:
   REGIONAL        fr:FR:Line::FAC858B2-B613-40BA-9423-E079D6979A0C: Lozanne - Tassin  [short='C29']
   REGIONAL        fr:FR:Line::FAD7386C-4ABB-426F-8352-4BDB8298A5D7: Laval - Le Mans  [short='P25']
   REGIONAL        fr:FR:Line::FC26638C-4159-4D77-B2B1-81116E69954E: Alençon - Château Du Loir  [short='P9']
-  REGIONAL        fr:FR:Line::FCD6AD77-8556-4708-B79D-D48BD2C9C7B7: Nice - Breil Sur Roya - Tende  [short='P1']
   REGIONAL        fr:FR:Line::FD29B74E-D951-45D1-87EB-E7B2BB2E7D6E: Calais Ville - Rang-Du-Fliers - Verton - Berck  [short='P73']
   REGIONAL        fr:FR:Line::FD570866-6148-47C0-8897-467ED42F0FAE: Charleville - Givet  [short='P62']
   REGIONAL        fr:FR:Line::FE540E4F-9FF6-4E25-BD0D-0D06A5695D40: Orleans - Vierzon - Châteauroux - Argenton - Limoges  [short='P4']
@@ -535,7 +534,6 @@ Routes by service type:
   REGIONAL        fr:FR:Line::a5e2106e-65d0-4abe-a726-bea36c38855b: Rouen - Dieppe  [short='K11']
   REGIONAL        fr:FR:Line::a6442ac3-6f55-438e-92b9-bc368cfaff20: St André-le-Gaz - Grenoble - Chambéry  [short='C31']
   REGIONAL        fr:FR:Line::aa649e90-559f-49ea-a45c-422b18b5a5be: Tours-Blois-Orléans (omnibus)  [short='P166']
-  REGIONAL        fr:FR:Line::ac342a6c-fac9-468e-bf4e-d245d7fb6ce8: Paris Austerlitz - Cerbère  [short='556C']
   REGIONAL        fr:FR:Line::ac845a4d-e111-4511-bad2-14c177ba4686: Orléans - Châteauroux - Saint-Sébastien  [short='P104']
   REGIONAL        fr:FR:Line::af6897db-26a3-4979-beae-ad811a22d3cd: 55. Pau - Oloron - Bedous  [short='L55']
   REGIONAL        fr:FR:Line::af758ed4-13bf-488a-bc6a-246ad17d499e: Metz - Bar-Le-Duc - Epernay  [short='P55']
@@ -597,9 +595,7 @@ Routes by service type:
   REGIONAL        fr:FR:Line::fe22a529-93ed-4301-8a97-e1c5e11abfa1: 32. Ussel - Brive - Périgueux - Bordeaux  [short='L32']
   REGIONAL        fr:FR:Line::ff177a26-1548-4497-b111-55a3044e9b94: Brioude - Clermont - Nevers  [short='C71']
   REGIONAL        fr:FR:Line::ffe6d3aa-3a90-47ea-aeeb-92fa84909329: NANCY - ST DIE DES VOSGES  [short='C42+']
-  REGIONAL        fr:OCESN-71793150-87773408   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87141002-87722025   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87212027-87688887   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87411223-87415018   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87415018-87411223   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87547000-87581009   -  [short='INCONNU']
@@ -610,41 +606,33 @@ Routes by service type:
   REGIONAL        fr:OCESN-87611483-87547000   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87671008-87547000   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87671008-87671339   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87686667-87734004   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87688887-87686006   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87686006-87784009   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87722025-87141002   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87722025-87142125   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87723197-87725689   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87725689-87723197   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87734004-87686667   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87753004-87765008   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87765008-87775007   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87773002-87773408   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87773002-87781104   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87773002-87784009   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87773408-71793150   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87773408-87773002   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87773408-87781104   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87773408-87784009   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87773408-87785006   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87781104-87773002   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87781104-87773408   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87751008-87753251   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87751008-87753285   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87753251-87751008   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87753285-87751008   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87753657-87765008   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87765008-87753657   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87781278-87773002   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87784009-87773408   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87784009-87686006   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87785006-87547000   -  [short='INCONNU']
   SUBURBAN        fr:FR:Line::6032F3D3-3E4C-4E7E-A1D8-1F1F4E72CFA5: Rennes - Carhaix  [short='S2']
 
 Patterns / departures by service:
   HIGH_SPEED          8 patterns       8 departures
   INTERCITY          82 patterns      82 departures
-  REGIONAL         9832 patterns    9832 departures
+  REGIONAL         9829 patterns    9829 departures
 
 Pipeline counters:
-  fr.routes_skipped_not_rail: 139
-  fr.trips_not_on_service_day: 46369
-  track_legs_routed: 6147
+  fr.routes_skipped_not_rail: 123
+  fr.trips_not_on_service_day: 44342
+  track_legs_routed: 6135
   track_legs_straight: 1864
-  trips_in: 9922
+  trips_in: 9919
 
 Longest end-to-end pattern per service (sample for checking against timetables):
   HIGH_SPEED      Strasbourg -> Bordeaux Saint-Jean: 6h01m, 11 stops, dep 14:01

@@ -1,4 +1,4 @@
-Rail bundle report  2026-10-22T09:50:41+00:00
+Rail bundle report  2026-10-26T07:51:33+00:00
 Output size: 1248 KB
 
 Source nl: allGo (Keolis), Arriva, Blauwnet, Bravo, Bravo (Arriva), Bravo (Hermes), Breng, Connexxion, De Lijn, Rederij Doeksen, EBS, GVB, Hermes, HTM, Blauwnet Arriva, Blauwnet Keolis, DB, Eurobahn, European Sl (feed-0-nl.zip)
@@ -196,8 +196,8 @@ Patterns / departures by service:
   REGIONAL          763 patterns    4888 departures
 
 Pipeline counters:
-  nl.routes_skipped_not_rail: 2886
-  nl.trips_not_on_service_day: 25802
+  nl.routes_skipped_not_rail: 3008
+  nl.trips_not_on_service_day: 25413
   shape_points_in: 174340
   shape_points_out: 45658
   trips_in: 6516
