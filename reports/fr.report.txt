@@ -1,12 +1,12 @@
-Rail bundle report  2026-10-26T07:59:27+00:00
-Output size: 4684 KB
+Rail bundle report  2026-11-02T10:16:33+00:00
+Output size: 4689 KB
 
 Source fr: CFF, SNCF VOYAGEURS, SNCF Voyageurs SA, SNCF Voyageurs EA, SNCF Voyageurs LO, TMR SA, SNCF Voyageurs BO, OCEdefault (feed-0-fr.zip)
 
-Stations: 2746
-Routes:   612
+Stations: 2751
+Routes:   606
 Shapes:   0
-Patterns: 9919 (from 9919 trips)
+Patterns: 9994 (from 9994 trips)
 
 Routes by service type:
   HIGH_SPEED      fr:FR:Line::58c0c9b7-3765-46af-85a3-f193f3030e9b: Est - Nantes TGV  [short='061A']
@@ -606,37 +606,31 @@ Routes by service type:
   REGIONAL        fr:OCESN-87611483-87547000   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87671008-87547000   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87671008-87671339   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87686006-87784009   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87722025-87141002   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87722025-87142125   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87723197-87725689   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87725689-87723197   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87751008-87753251   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87751008-87753285   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87751008-87765008   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87753004-87765008   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87753251-87751008   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87753285-87751008   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87753657-87765008   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87765008-87753657   -  [short='INCONNU']
+  REGIONAL        fr:OCESN-87765008-87753004   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87781278-87773002   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87784009-87686006   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87785006-87547000   -  [short='INCONNU']
-  SUBURBAN        fr:FR:Line::6032F3D3-3E4C-4E7E-A1D8-1F1F4E72CFA5: Rennes - Carhaix  [short='S2']
 
 Patterns / departures by service:
   HIGH_SPEED          8 patterns       8 departures
   INTERCITY          82 patterns      82 departures
-  REGIONAL         9829 patterns    9829 departures
+  REGIONAL         9904 patterns    9904 departures
 
 Pipeline counters:
-  fr.routes_skipped_not_rail: 123
-  fr.trips_not_on_service_day: 44342
-  track_legs_routed: 6135
-  track_legs_straight: 1864
-  trips_in: 9919
+  fr.routes_skipped_not_rail: 106
+  fr.trips_not_on_service_day: 45897
+  track_legs_routed: 6114
+  track_legs_straight: 1863
+  trips_in: 9994
 
 Longest end-to-end pattern per service (sample for checking against timetables):
   HIGH_SPEED      Strasbourg -> Bordeaux Saint-Jean: 6h01m, 11 stops, dep 14:01
   INTERCITY       Tarbes -> Bordeaux Saint-Jean: 3h26m, 13 stops, dep 16:21
-  REGIONAL        Paris Austerlitz -> Nice-Ville: 12h12m, 8 stops, dep 20:57
+  REGIONAL        Tarbes -> Paris Austerlitz: 12h03m, 8 stops, dep 19:00
 
 Sample train labels / headsigns (first 25 ETS-family patterns):

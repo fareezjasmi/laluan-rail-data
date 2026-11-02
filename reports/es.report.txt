@@ -1,13 +1,13 @@
-Rail bundle report  2026-10-26T07:55:03+00:00
-Output size: 2099 KB
+Rail bundle report  2026-11-02T09:46:26+00:00
+Output size: 2103 KB
 
 Source es: RENFE OPERADORA (feed-0-es.zip)
 Source escer: Renfe Cercanias (feed-1-escer.zip)
 
 Stations: 1875
-Routes:   884
+Routes:   889
 Shapes:   134
-Patterns: 2513 (from 5967 trips)
+Patterns: 2529 (from 5998 trips)
 
 Routes by service type:
   HIGH_SPEED      es:0321317000AV006           AVE  [short='AVE']
@@ -195,6 +195,10 @@ Routes by service type:
   INTERCITY       es:1700037606GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:1700060911GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:1700081100GL026           Intercity  [short='Intercity']
+  INTERCITY       es:1800051003GL026           Intercity  [short='Intercity']
+  INTERCITY       es:1800054413GL026           Intercity  [short='Intercity']
+  INTERCITY       es:1800055007GL023           ALVIA  [short='ALVIA']
+  INTERCITY       es:1800055020GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:2020017000GL026           Intercity  [short='Intercity']
   INTERCITY       es:2030917000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:2030922100GL026           Intercity  [short='Intercity']
@@ -210,10 +214,14 @@ Routes by service type:
   INTERCITY       es:4301960000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:4301960000GL026           Intercity  [short='Intercity']
   INTERCITY       es:5050071801GL023           ALVIA  [short='ALVIA']
+  INTERCITY       es:5100318000GL026           Intercity  [short='Intercity']
   INTERCITY       es:5140560000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:5440354413GL026           Intercity  [short='Intercity']
+  INTERCITY       es:5441318000GL026           Intercity  [short='Intercity']
   INTERCITY       es:5441354403GL026           Intercity  [short='Intercity']
+  INTERCITY       es:5500718000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:5500760000GL023           ALVIA  [short='ALVIA']
+  INTERCITY       es:5502018000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:5502060000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:5631260000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:6000005000GL023           ALVIA  [short='ALVIA']
@@ -595,12 +603,12 @@ Routes by service type:
   REGIONAL        escer:51T0164R15             Mora la Nova                            -  [short='R15']
   REGIONAL        escer:51T0175R13             La Plana-Picamoixons                    -Sant Vicenc de Calders  [short='R13']
   REGIONAL        escer:51T0176R13             Sant Vicenc de Calders                  -La Plana-Picamoixons  [short='R13']
-  REGIONAL        escer:51T0183R15             -Tortosa  [short='R15']
   REGIONAL_EXPRESS es:0100751003VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:0203055020VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:0300150300VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:0310017000VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:0310050500VRX             MD  [short='MD']
+  REGIONAL_EXPRESS es:0310051003VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:0310051405VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:0404011200VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:0404011208VRX             MD  [short='MD']
@@ -881,9 +889,6 @@ Routes by service type:
   SUBURBAN        escer:61T0006C1              Donostia-San Sebastian                  -  [short='C1']
   SUBURBAN        escer:61T0007C1              Zumarraga                               -Hernani  [short='C1']
   SUBURBAN        escer:61T0008C1              Hernani                                 -Zumarraga  [short='C1']
-  SUBURBAN        escer:61T0015C1              -  [short='C1']
-  SUBURBAN        escer:61T0016C1              -  [short='C1']
-  SUBURBAN        escer:61T0017C1              Andoain                                 -  [short='C1']
   SUBURBAN        escer:62T0001C1              Santander                               -Reinosa  [short='C1']
   SUBURBAN        escer:62T0002C1              Reinosa                                 -Santander  [short='C1']
   SUBURBAN        escer:62T0003C2              Santander                               -Cabezón De La Sal  [short='C2']
@@ -896,21 +901,21 @@ Routes by service type:
   SUBURBAN        escer:70T0006C1              -Zaragoza Delicias  [short='C1']
 
 Patterns / departures by service:
-  HIGH_SPEED        251 patterns     311 departures
-  INTERCITY         141 patterns     143 departures
-  REGIONAL          820 patterns    1737 departures
+  HIGH_SPEED        246 patterns     299 departures
+  INTERCITY         159 patterns     161 departures
+  REGIONAL          822 patterns    1753 departures
   REGIONAL_EXPRESS   309 patterns     334 departures
-  SUBURBAN          992 patterns    3427 departures
+  SUBURBAN          993 patterns    3436 departures
 
 Pipeline counters:
-  es.trips_not_on_service_day: 7080
-  escer.routes_skipped_not_rail: 50
-  escer.trips_not_on_service_day: 111132
+  es.trips_not_on_service_day: 6730
+  escer.routes_skipped_not_rail: 48
+  escer.trips_not_on_service_day: 115198
   shape_points_in: 111963
   shape_points_out: 22201
   track_legs_routed: 2272
-  track_legs_straight: 401
-  trips_in: 5967
+  track_legs_straight: 402
+  trips_in: 5998
   trips_skipped_too_short: 10
 
 Longest end-to-end pattern per service (sample for checking against timetables):

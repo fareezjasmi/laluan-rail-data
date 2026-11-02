@@ -1,12 +1,12 @@
-Rail bundle report  2026-10-26T07:52:30+00:00
-Output size: 781 KB
+Rail bundle report  2026-11-02T09:37:52+00:00
+Output size: 754 KB
 
 Source be: NMBS/SNCB (feed-0-be.zip)
 
-Stations: 616
+Stations: 604
 Routes:   1897
 Shapes:   0
-Patterns: 1201 (from 3960 trips)
+Patterns: 1142 (from 3842 trips)
 
 Routes by service type:
   INTERCITY       be:10                        Tournai -- Mouscron  [short='IC']
@@ -1908,24 +1908,24 @@ Routes by service type:
   SUBURBAN        be:998                       Anvers-Central -- Essen  [short='S32']
 
 Patterns / departures by service:
-  INTERCITY         489 patterns    1400 departures
+  INTERCITY         477 patterns    1370 departures
   NIGHT               1 patterns       1 departures
-  REGIONAL          365 patterns    1121 departures
+  REGIONAL          348 patterns    1069 departures
   REGIONAL_EXPRESS     6 patterns       6 departures
-  SUBURBAN          340 patterns    1377 departures
+  SUBURBAN          310 patterns    1342 departures
 
 Pipeline counters:
   be.routes_skipped_not_rail: 285
-  be.trips_not_on_service_day: 139119
-  track_legs_routed: 1111
-  track_legs_straight: 530
-  trips_in: 3960
+  be.trips_not_on_service_day: 139237
+  track_legs_routed: 1086
+  track_legs_straight: 520
+  trips_in: 3842
 
 Longest end-to-end pattern per service (sample for checking against timetables):
   INTERCITY       Welkenraedt -> Ostende: 4h15m, 24 stops, dep 17:48 440
-  NIGHT           Bruxelles-Midi -> Wien HBF (AT): 15h07m, 15 stops, dep 19:06 469
-  REGIONAL        Mouscron -> Grammont: 2h36m, 26 stops, dep 04:47 4877
+  NIGHT           Bruxelles-Midi -> Wien HBF (AT): 15h35m, 15 stops, dep 18:38 469
+  REGIONAL        Mouscron -> Grammont: 2h39m, 24 stops, dep 04:47 4877
   REGIONAL_EXPRESS Paris Nord (FR) -> Bruxelles-Midi: 4h02m, 4 stops, dep 08:18 63
-  SUBURBAN        Landen -> Nivelles: 2h22m, 25 stops, dep 11:09 3283
+  SUBURBAN        Audenarde -> Louvain-la-Neuve: 2h21m, 27 stops, dep 05:00 3955
 
 Sample train labels / headsigns (first 25 ETS-family patterns):
