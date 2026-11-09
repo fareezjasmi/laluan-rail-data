@@ -1,12 +1,12 @@
-Rail bundle report  2026-11-02T09:34:59+00:00
-Output size: 2489 KB
+Rail bundle report  2026-11-09T09:49:09+00:00
+Output size: 2474 KB
 
 Source ch: Basler Verkehrsbetriebe, Schweizerische Bundesbahnen SBB, THURBO, BLS AG (bls), Rhätische Bahn, Baselland Transport, Sihltal-Zürich-Uetliberg-Bahn, Verkehrsbetriebe Zürich INFO+, Aare Seeland mobil (s (feed-0-ch.zip)
 
-Stations: 2993
+Stations: 2975
 Routes:   928
 Shapes:   0
-Patterns: 5208 (from 19895 trips)
+Patterns: 5185 (from 19902 trips)
 
 Routes by service type:
   HIGH_SPEED      ch:91-1A-j26-1               001A  [short='001A']
@@ -561,7 +561,6 @@ Routes by service type:
   REGIONAL        ch:91-P7-j26-1               P7  [short='P7']
   REGIONAL        ch:91-P75-j26-1              P75  [short='P75']
   REGIONAL        ch:91-P8-j26-1               P8  [short='P8']
-  REGIONAL        ch:91-P9-j26-1               P9  [short='P9']
   REGIONAL        ch:91-RB4-6-j26-1            RB46  [short='RB46']
   REGIONAL        ch:91-RB4-7-j26-1            RB47  [short='RB47']
   REGIONAL        ch:91-RB6-1-j26-1            RB61  [short='RB61']
@@ -627,7 +626,6 @@ Routes by service type:
   REGIONAL_EXPRESS ch:91-3-K-j26-1              RE3  [short='RE3']
   REGIONAL_EXPRESS ch:91-3-M-j26-1              RE3  [short='RE3']
   REGIONAL_EXPRESS ch:91-3-N-j26-1              RE3  [short='RE3']
-  REGIONAL_EXPRESS ch:91-3-R-j26-1              RE3  [short='RE3']
   REGIONAL_EXPRESS ch:91-3-U-j26-1              RE3  [short='RE3']
   REGIONAL_EXPRESS ch:91-30-M-j26-1             RE30  [short='RE30']
   REGIONAL_EXPRESS ch:91-30-Y-j26-1             IR  [short='IR']
@@ -930,6 +928,8 @@ Routes by service type:
   SUBURBAN        ch:91-99-j26-1               S99  [short='S99']
   SUBURBAN        ch:91-9V-Y-j26-1             S  [short='S']
   SUBURBAN        ch:91-9W-Y-j26-1             S  [short='S']
+  SUBURBAN        ch:91-A4-Y-j26-1             S  [short='S']
+  SUBURBAN        ch:91-A5-Y-j26-1             S  [short='S']
   SUBURBAN        ch:91-AG-Y-j26-1             S  [short='S']
   SUBURBAN        ch:91-CH-Y-j26-1             S  [short='S']
   SUBURBAN        ch:91-D1-Y-j26-1             S  [short='S']
@@ -939,19 +939,19 @@ Routes by service type:
   SUBURBAN        ch:91-V-Y-j26-1              SN  [short='SN']
 
 Patterns / departures by service:
-  HIGH_SPEED        286 patterns     392 departures
-  INTERCITY         168 patterns     476 departures
+  HIGH_SPEED        296 patterns     410 departures
+  INTERCITY         166 patterns     470 departures
   NIGHT               6 patterns       8 departures
-  REGIONAL         2934 patterns    7809 departures
-  REGIONAL_EXPRESS   658 patterns    2310 departures
-  SUBURBAN         1156 patterns    8900 departures
+  REGIONAL         2908 patterns    7799 departures
+  REGIONAL_EXPRESS   650 patterns    2315 departures
+  SUBURBAN         1159 patterns    8900 departures
 
 Pipeline counters:
   ch.routes_skipped_not_rail: 4259
-  ch.trips_not_on_service_day: 249001
-  track_legs_routed: 3562
-  track_legs_straight: 4329
-  trips_in: 19895
+  ch.trips_not_on_service_day: 247881
+  track_legs_routed: 3561
+  track_legs_straight: 4285
+  trips_in: 19902
 
 Longest end-to-end pattern per service (sample for checking against timetables):
   HIGH_SPEED      Marseille-Saint-Charles -> Luxembourg: 7h53m, 14 stops, dep 15:56 9896

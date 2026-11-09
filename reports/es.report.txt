@@ -1,13 +1,13 @@
-Rail bundle report  2026-11-02T09:46:26+00:00
-Output size: 2103 KB
+Rail bundle report  2026-11-09T09:53:12+00:00
+Output size: 2113 KB
 
 Source es: RENFE OPERADORA (feed-0-es.zip)
 Source escer: Renfe Cercanias (feed-1-escer.zip)
 
-Stations: 1875
-Routes:   889
+Stations: 1871
+Routes:   890
 Shapes:   134
-Patterns: 2529 (from 5998 trips)
+Patterns: 2546 (from 5956 trips)
 
 Routes by service type:
   HIGH_SPEED      es:0321317000AV006           AVE  [short='AVE']
@@ -191,7 +191,6 @@ Routes by service type:
   INTERCITY       es:1700020309GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:1700022100GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:1700030100GL023           ALVIA  [short='ALVIA']
-  INTERCITY       es:1700031400GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:1700037606GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:1700060911GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:1700081100GL026           Intercity  [short='Intercity']
@@ -209,7 +208,6 @@ Routes by service type:
   INTERCITY       es:3010008004GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:3010010600GL026           Intercity  [short='Intercity']
   INTERCITY       es:3010017000GL023           ALVIA  [short='ALVIA']
-  INTERCITY       es:3140017000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:3760617000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:4301960000GL023           ALVIA  [short='ALVIA']
   INTERCITY       es:4301960000GL026           Intercity  [short='Intercity']
@@ -359,7 +357,7 @@ Routes by service type:
   REGIONAL        es:1800035200VRE             REG.EXP.  [short='REG.EXP.']
   REGIONAL        es:1800035200VRR             REGIONAL  [short='REGIONAL']
   REGIONAL        es:1800035400VRE             REG.EXP.  [short='REG.EXP.']
-  REGIONAL        es:1800037500VRM             REG.EXP.  [short='REG.EXP.']
+  REGIONAL        es:1800037500VRE             REG.EXP.  [short='REG.EXP.']
   REGIONAL        es:2020010600VRE             REG.EXP.  [short='REG.EXP.']
   REGIONAL        es:2020015100VRE             REG.EXP.  [short='REG.EXP.']
   REGIONAL        es:2020022100VRE             REG.EXP.  [short='REG.EXP.']
@@ -563,6 +561,7 @@ Routes by service type:
   REGIONAL        escer:51T0024R8              Granollers Centre                       -Martorell Central  [short='R8']
   REGIONAL        escer:51T0025R2              Sant Vicenc de Calders                  -Castelldefels  [short='R2']
   REGIONAL        escer:51T0026R2              Castelldefels                           -Sant Vicenc de Calders  [short='R2']
+  REGIONAL        escer:51T0027R2              Sant Celoni                             -Barcelona-Sants  [short='R2']
   REGIONAL        escer:51T0028R2              Barcelona-Sants                         -Sant Celoni  [short='R2']
   REGIONAL        escer:51T0029R7              Barcelona-Fabra i Puig                  -Cerdanyola-Universitat  [short='R7']
   REGIONAL        escer:51T0030R7              Cerdanyola-Universitat                  -Barcelona-Fabra i Puig  [short='R7']
@@ -578,6 +577,7 @@ Routes by service type:
   REGIONAL        escer:51T0048RL4             Lleida                                  -Terrassa Estació del Nord  [short='RL4']
   REGIONAL        escer:51T0093R11             Figueres                                -Barcelona-Sants  [short='R11']
   REGIONAL        escer:51T0094R11             Barcelona-Sants                         -Figueres  [short='R11']
+  REGIONAL        escer:51T0095R2              El Prat de Llobregat                    -Barcelona-Sant Andreu  [short='R2']
   REGIONAL        escer:51T0097R15             Riba-roja d'Ebre                        -Caspe  [short='R15']
   REGIONAL        escer:51T0098R15             Caspe                                   -Riba-roja d'Ebre  [short='R15']
   REGIONAL        escer:51T0099RL3             Lleida                                  -Cervera  [short='RL3']
@@ -718,7 +718,6 @@ Routes by service type:
   REGIONAL_EXPRESS es:6090265000VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:6091137200VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:6091161200VRX             MD  [short='MD']
-  REGIONAL_EXPRESS es:6091165000VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:6120060911VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:6120065000VRX             MD  [short='MD']
   REGIONAL_EXPRESS es:6130765000VRX             MD  [short='MD']
@@ -762,11 +761,15 @@ Routes by service type:
   SUBURBAN        escer:10T0026C9              Cotos                                   -Cercedilla  [short='C9']
   SUBURBAN        escer:10T0027C8a             Atocha                                  -El Escorial  [short='C8a']
   SUBURBAN        escer:10T0035C5              -Fuenlabrada  [short='C5']
+  SUBURBAN        escer:10T0037C2              Alcala de Henares                       -Nuevos Ministerios  [short='C2']
+  SUBURBAN        escer:10T0047C5              Atocha                                  -Fuenlabrada  [short='C5']
+  SUBURBAN        escer:10T0048C5              Fuenlabrada                             -Atocha  [short='C5']
   SUBURBAN        escer:10T0051C7              Principe Pio                            -Chamartín - Clara Campoamor  [short='C7']
   SUBURBAN        escer:10T0052C7              Chamartín - Clara Campoamor             -Principe Pio  [short='C7']
   SUBURBAN        escer:10T0053C7              Principe Pio                            -Atocha  [short='C7']
   SUBURBAN        escer:10T0054C7              Atocha                                  -Principe Pio  [short='C7']
   SUBURBAN        escer:10T0059C7              Chamartín - Clara Campoamor             -Alcala de Henares  [short='C7']
+  SUBURBAN        escer:10T0060C7              Alcala de Henares                       -Chamartín - Clara Campoamor  [short='C7']
   SUBURBAN        escer:10T0061C8a             El Escorial                             -Chamartín - Clara Campoamor  [short='C8a']
   SUBURBAN        escer:10T0062C8a             Chamartín - Clara Campoamor             -El Escorial  [short='C8a']
   SUBURBAN        escer:10T0064C10             Principe Pio                            -El Escorial  [short='C10']
@@ -887,8 +890,6 @@ Routes by service type:
   SUBURBAN        escer:61T0002C1              Brincola                                -Irun  [short='C1']
   SUBURBAN        escer:61T0005C1              -Donostia-San Sebastian  [short='C1']
   SUBURBAN        escer:61T0006C1              Donostia-San Sebastian                  -  [short='C1']
-  SUBURBAN        escer:61T0007C1              Zumarraga                               -Hernani  [short='C1']
-  SUBURBAN        escer:61T0008C1              Hernani                                 -Zumarraga  [short='C1']
   SUBURBAN        escer:62T0001C1              Santander                               -Reinosa  [short='C1']
   SUBURBAN        escer:62T0002C1              Reinosa                                 -Santander  [short='C1']
   SUBURBAN        escer:62T0003C2              Santander                               -Cabezón De La Sal  [short='C2']
@@ -901,25 +902,25 @@ Routes by service type:
   SUBURBAN        escer:70T0006C1              -Zaragoza Delicias  [short='C1']
 
 Patterns / departures by service:
-  HIGH_SPEED        246 patterns     299 departures
-  INTERCITY         159 patterns     161 departures
-  REGIONAL          822 patterns    1753 departures
+  HIGH_SPEED        250 patterns     309 departures
+  INTERCITY         161 patterns     163 departures
+  REGIONAL          823 patterns    1686 departures
   REGIONAL_EXPRESS   309 patterns     334 departures
-  SUBURBAN          993 patterns    3436 departures
+  SUBURBAN         1003 patterns    3449 departures
 
 Pipeline counters:
-  es.trips_not_on_service_day: 6730
-  escer.routes_skipped_not_rail: 48
-  escer.trips_not_on_service_day: 115198
-  shape_points_in: 111963
-  shape_points_out: 22201
-  track_legs_routed: 2272
-  track_legs_straight: 402
-  trips_in: 5998
+  es.trips_not_on_service_day: 5075
+  escer.routes_skipped_not_rail: 50
+  escer.trips_not_on_service_day: 109066
+  shape_points_in: 112721
+  shape_points_out: 22415
+  track_legs_routed: 2273
+  track_legs_straight: 403
+  trips_in: 5956
   trips_skipped_too_short: 10
 
 Longest end-to-end pattern per service (sample for checking against timetables):
-  HIGH_SPEED      Madrid-Puerta de Atocha-Almudena Grandes -> Marseille St Charles: 8h42m, 14 stops, dep 12:50 09725
+  HIGH_SPEED      Madrid-Puerta de Atocha-Almudena Grandes -> Marseille St Charles: 8h40m, 14 stops, dep 12:50 09725
   INTERCITY       Vigo Urzaiz -> Barcelona-Sants: 14h08m, 25 stops, dep 07:32 00621
   REGIONAL        Feve-León -> Bilbao la Concordia: 8h07m, 55 stops, dep 13:40 71891
   REGIONAL_EXPRESS Sevilla-Santa Justa -> Madrid-Atocha Cercanías: 9h46m, 25 stops, dep 10:30 35807

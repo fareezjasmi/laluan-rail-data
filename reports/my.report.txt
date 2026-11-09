@@ -1,13 +1,13 @@
-Rail bundle report  2026-11-02T09:29:06+00:00
-Output size: 227 KB
+Rail bundle report  2026-11-09T09:45:56+00:00
+Output size: 230 KB
 
 Source ktmb: Keretapi Tanah Melayu (feed-0-ktmb.zip)
 Source rapidkl: rapidrail (feed-1-rapidkl.zip)
 
-Stations: 342
+Stations: 343
 Routes:   17
 Shapes:   16
-Patterns: 142 (from 422 trips)
+Patterns: 147 (from 431 trips)
 
 Routes by service type:
   BRT             rapidkl:BRT                  Sunway Line  [short='BRT']
@@ -30,7 +30,7 @@ Routes by service type:
 
 Patterns / departures by service:
   BRT                 2 patterns     580 departures
-  ETS                45 patterns      82 departures
+  ETS                50 patterns      91 departures
   INTERCITY          16 patterns      17 departures
   KOMUTER            63 patterns     189 departures
   LRT                 8 patterns    2056 departures
@@ -41,9 +41,9 @@ Patterns / departures by service:
 Pipeline counters:
   shape_points_in: 7280
   shape_points_out: 2006
-  track_legs_routed: 299
+  track_legs_routed: 306
   track_legs_straight: 148
-  trips_in: 422
+  trips_in: 431
 
 Longest end-to-end pattern per service (sample for checking against timetables):
   BRT             Sunway-Setia Jaya -> USJ7: 15m, 7 stops, dep 06:00
@@ -60,8 +60,13 @@ Sample train labels / headsigns (first 25 ETS-family patterns):
   ETS           headsign='' labels=['1005']
   ETS           headsign='' labels=['1010']
   ETS           headsign='' labels=['1011']
+  ETS           headsign='' labels=['1014']
+  ETS           headsign='' labels=['1017']
   ETS           headsign='' labels=['1054']
   ETS           headsign='' labels=['1055']
+  ETS           headsign='' labels=['2506']
+  ETS           headsign='' labels=['2511']
+  ETS           headsign='' labels=['2514']
   ETS           headsign='' labels=['9074', '9008']
   ETS           headsign='' labels=['9011', '9077']
   ETS           headsign='' labels=['9041', '9045', '9049', '9055']
@@ -75,9 +80,4 @@ Sample train labels / headsigns (first 25 ETS-family patterns):
   ETS           headsign='' labels=['9209']
   ETS           headsign='' labels=['9214']
   ETS           headsign='' labels=['9223', '9225']
-  ETS           headsign='' labels=['9224', '9226', '9238']
-  ETS           headsign='' labels=['9273', '9233']
-  ETS           headsign='' labels=['9251']
-  ETS           headsign='' labels=['9256']
-  ETS           headsign='' labels=['9276']
-  ETS           headsign='' labels=['9323']
+  ETS           headsign='' labels=['9224', '9226', '9274', '9238']
