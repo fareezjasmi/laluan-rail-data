@@ -1,4 +1,4 @@
-Rail bundle report  2026-11-09T09:53:38+00:00
+Rail bundle report  2026-11-16T09:46:05+00:00
 Output size: 797 KB
 
 Source be: NMBS/SNCB (feed-0-be.zip)

@@ -1,12 +1,12 @@
-Rail bundle report  2026-11-09T09:58:11+00:00
-Output size: 4689 KB
+Rail bundle report  2026-11-16T09:38:32+00:00
+Output size: 3291 KB
 
 Source fr: CFF, SNCF VOYAGEURS, SNCF Voyageurs SA, SNCF Voyageurs EA, SNCF Voyageurs LO, TMR SA, SNCF Voyageurs BO, OCEdefault (feed-0-fr.zip)
 
-Stations: 2748
-Routes:   607
+Stations: 2758
+Routes:   600
 Shapes:   0
-Patterns: 10027 (from 10027 trips)
+Patterns: 9906 (from 9906 trips)
 
 Routes by service type:
   HIGH_SPEED      fr:FR:Line::58c0c9b7-3765-46af-85a3-f193f3030e9b: Est - Nantes TGV  [short='061A']
@@ -86,6 +86,7 @@ Routes by service type:
   REGIONAL        fr:FR:Line::18B0FAF0-44B1-4D0A-A8AD-2E32B7602EAD: Paris - Rennes - Saint-Malo - Saint-Brieuc TGV  [short='401D']
   REGIONAL        fr:FR:Line::18E717A0-950C-40A2-8F27-98A8EE8ADD20: Lille Flandres - Don-Sainghin - Béthune  [short='C50']
   REGIONAL        fr:FR:Line::19ea029b-6782-421a-8481-7470f5718e47: Lux/Alsace/Loraine - Paca  [short='071A']
+  REGIONAL        fr:FR:Line::1AC9122F-96CA-4237-BEDA-79ACE1F2F02B: Tours - Chinon  [short='P21']
   REGIONAL        fr:FR:Line::1AF6DA65-F2A9-4241-A625-8B81DC2A8E51: Paris - Metz TGV  [short='803A']
   REGIONAL        fr:FR:Line::1BF2D66F-09EF-4CB8-A003-1417C1EA6532: Paris - Orléans  [short='K8+']
   REGIONAL        fr:FR:Line::1C59DA64-5D12-4600-9092-4E99FCBFAC7A: Paris - Poitiers - La Rochelle TGV  [short='421I']
@@ -139,7 +140,6 @@ Routes by service type:
   REGIONAL        fr:FR:Line::30F37992-42EC-43CC-8A26-59280550C603: Paris Bercy - Corbigny  [short='P15']
   REGIONAL        fr:FR:Line::3175F4A9-2947-4E88-95A8-B0A98B88A418: Lille Flandres - Don-Sainghin - Lens  [short='K51']
   REGIONAL        fr:FR:Line::31BA3470-2141-4D9A-8D86-B692204EE547: Colmar - Mulhouse  [short='C10']
-  REGIONAL        fr:FR:Line::31C14D7B-0326-431A-B8DC-341B53D22453: Grasse - Cannes - Nice - Vintimille  [short='C3']
   REGIONAL        fr:FR:Line::323800B4-9274-423F-B8E2-9DFD1BC27DBC: Ambérieu - Chambery  [short='P3']
   REGIONAL        fr:FR:Line::3334AEE5-6669-4426-A9E8-1F7704E8F5BD: Caen - Cherbourg  [short='K2']
   REGIONAL        fr:FR:Line::338660B1-35FD-4306-969D-C99969913369: Paris - Toulouse SEA  [short='433E']
@@ -595,10 +595,6 @@ Routes by service type:
   REGIONAL        fr:FR:Line::ff177a26-1548-4497-b111-55a3044e9b94: Brioude - Clermont - Nevers  [short='C71']
   REGIONAL        fr:FR:Line::ffe6d3aa-3a90-47ea-aeeb-92fa84909329: NANCY - ST DIE DES VOSGES  [short='C42+']
   REGIONAL        fr:OCESN-87141002-87722025   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87214056-87214247   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87214247-87214056   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87411223-87415018   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87415018-87411223   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87547000-87581009   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87547000-87611483   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87547000-87671008   -  [short='INCONNU']
@@ -609,10 +605,7 @@ Routes by service type:
   REGIONAL        fr:OCESN-87671008-87671339   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87722025-87141002   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87722025-87142125   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87751008-87753251   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87753004-87318964   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87753004-87765008   -  [short='INCONNU']
-  REGIONAL        fr:OCESN-87753251-87751008   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87765008-87753004   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87781278-87773002   -  [short='INCONNU']
   REGIONAL        fr:OCESN-87785006-87547000   -  [short='INCONNU']
@@ -620,18 +613,16 @@ Routes by service type:
 Patterns / departures by service:
   HIGH_SPEED          8 patterns       8 departures
   INTERCITY          82 patterns      82 departures
-  REGIONAL         9937 patterns    9937 departures
+  REGIONAL         9816 patterns    9816 departures
 
 Pipeline counters:
-  fr.routes_skipped_not_rail: 126
-  fr.trips_not_on_service_day: 45052
-  track_legs_routed: 6107
-  track_legs_straight: 1860
-  trips_in: 10027
+  fr.routes_skipped_not_rail: 108
+  fr.trips_not_on_service_day: 47226
+  trips_in: 9906
 
 Longest end-to-end pattern per service (sample for checking against timetables):
   HIGH_SPEED      Strasbourg -> Bordeaux Saint-Jean: 6h01m, 11 stops, dep 14:01
   INTERCITY       Tarbes -> Bordeaux Saint-Jean: 3h26m, 13 stops, dep 16:21
-  REGIONAL        Tarbes -> Paris Austerlitz: 12h03m, 8 stops, dep 19:00
+  REGIONAL        Paris Austerlitz -> Nice-Ville: 12h12m, 8 stops, dep 20:57
 
 Sample train labels / headsigns (first 25 ETS-family patterns):

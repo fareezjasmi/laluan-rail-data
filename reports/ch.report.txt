@@ -1,12 +1,12 @@
-Rail bundle report  2026-11-09T09:49:09+00:00
-Output size: 2474 KB
+Rail bundle report  2026-11-16T09:40:24+00:00
+Output size: 2125 KB
 
 Source ch: Basler Verkehrsbetriebe, Schweizerische Bundesbahnen SBB, THURBO, BLS AG (bls), Rhätische Bahn, Baselland Transport, Sihltal-Zürich-Uetliberg-Bahn, Verkehrsbetriebe Zürich INFO+, Aare Seeland mobil (s (feed-0-ch.zip)
 
-Stations: 2975
-Routes:   928
+Stations: 3015
+Routes:   929
 Shapes:   0
-Patterns: 5185 (from 19902 trips)
+Patterns: 5206 (from 19877 trips)
 
 Routes by service type:
   HIGH_SPEED      ch:91-1A-j26-1               001A  [short='001A']
@@ -223,6 +223,7 @@ Routes by service type:
   REGIONAL        ch:91-44-B-j26-1             R44  [short='R44']
   REGIONAL        ch:91-45-j26-1               R45  [short='R45']
   REGIONAL        ch:91-46-B-j26-1             R46  [short='R46']
+  REGIONAL        ch:91-4G-Y-j26-1             EXT  [short='EXT']
   REGIONAL        ch:91-4J-Y-j26-1             R  [short='R']
   REGIONAL        ch:91-4T-Y-j26-1             EXT  [short='EXT']
   REGIONAL        ch:91-5-I-j26-1              R5  [short='R5']
@@ -939,26 +940,24 @@ Routes by service type:
   SUBURBAN        ch:91-V-Y-j26-1              SN  [short='SN']
 
 Patterns / departures by service:
-  HIGH_SPEED        296 patterns     410 departures
-  INTERCITY         166 patterns     470 departures
+  HIGH_SPEED        291 patterns     393 departures
+  INTERCITY         162 patterns     469 departures
   NIGHT               6 patterns       8 departures
-  REGIONAL         2908 patterns    7799 departures
-  REGIONAL_EXPRESS   650 patterns    2315 departures
-  SUBURBAN         1159 patterns    8900 departures
+  REGIONAL         2944 patterns    7813 departures
+  REGIONAL_EXPRESS   639 patterns    2283 departures
+  SUBURBAN         1164 patterns    8910 departures
 
 Pipeline counters:
-  ch.routes_skipped_not_rail: 4259
-  ch.trips_not_on_service_day: 247881
-  track_legs_routed: 3561
-  track_legs_straight: 4285
-  trips_in: 19902
+  ch.routes_skipped_not_rail: 4261
+  ch.trips_not_on_service_day: 246769
+  trips_in: 19877
 
 Longest end-to-end pattern per service (sample for checking against timetables):
-  HIGH_SPEED      Marseille-Saint-Charles -> Luxembourg: 7h53m, 14 stops, dep 15:56 9896
+  HIGH_SPEED      Nancy -> Nice-Ville: 10h17m, 18 stops, dep 12:26 5537
   INTERCITY       Lyon Perrache -> Nantes: 6h59m, 12 stops, dep 11:51 4504
   NIGHT           Feldkirch -> Zürich HB: 2h49m, 4 stops, dep 06:41 466
-  REGIONAL        Nîmes -> Clermont-Ferrand: 5h27m, 25 stops, dep 16:59 873994
-  REGIONAL_EXPRESS Locarno -> Basel SBB: 4h27m, 23 stops, dep 19:33 2340
+  REGIONAL        Lyon Part Dieu -> Paris-Bercy: 5h27m, 19 stops, dep 17:16 17764
+  REGIONAL_EXPRESS Locarno -> Basel SBB: 4h26m, 23 stops, dep 19:33 2340
   SUBURBAN        Wil SG -> Schaffhausen: 2h26m, 43 stops, dep 05:17 11117
 
 Sample train labels / headsigns (first 25 ETS-family patterns):
