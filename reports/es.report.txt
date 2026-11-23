@@ -1,13 +1,13 @@
-Rail bundle report  2026-11-16T09:59:05+00:00
-Output size: 2099 KB
+Rail bundle report  2026-11-23T11:11:08+00:00
+Output size: 2096 KB
 
 Source es: RENFE OPERADORA (feed-0-es.zip)
 Source escer: Renfe Cercanias (feed-1-escer.zip)
 
-Stations: 1870
-Routes:   891
+Stations: 1864
+Routes:   890
 Shapes:   132
-Patterns: 2520 (from 5937 trips)
+Patterns: 2513 (from 5838 trips)
 
 Routes by service type:
   HIGH_SPEED      es:0321317000AV006           AVE  [short='AVE']
@@ -194,8 +194,6 @@ Routes by service type:
   INTERCITY       es:1700037606GL023           Intercity  [short='Intercity']
   INTERCITY       es:1700060911GL023           Intercity  [short='Intercity']
   INTERCITY       es:1700081100GL026           Intercity  [short='Intercity']
-  INTERCITY       es:1800051003GL026           Intercity  [short='Intercity']
-  INTERCITY       es:1800054413GL026           Intercity  [short='Intercity']
   INTERCITY       es:2020017000GL026           Intercity  [short='Intercity']
   INTERCITY       es:2030917000GL023           Intercity  [short='Intercity']
   INTERCITY       es:2030922100GL026           Intercity  [short='Intercity']
@@ -211,10 +209,8 @@ Routes by service type:
   INTERCITY       es:4301960000GL023           Intercity  [short='Intercity']
   INTERCITY       es:4301960000GL026           Intercity  [short='Intercity']
   INTERCITY       es:5050071801GL023           Intercity  [short='Intercity']
-  INTERCITY       es:5100318000GL026           Intercity  [short='Intercity']
   INTERCITY       es:5140560000GL023           Intercity  [short='Intercity']
   INTERCITY       es:5440354413GL026           Intercity  [short='Intercity']
-  INTERCITY       es:5441318000GL026           Intercity  [short='Intercity']
   INTERCITY       es:5441354403GL026           Intercity  [short='Intercity']
   INTERCITY       es:5500760000GL023           Intercity  [short='Intercity']
   INTERCITY       es:5502060000GL023           Intercity  [short='Intercity']
@@ -732,6 +728,8 @@ Routes by service type:
   REGIONAL        escer:51T0108R17             Barcelona-Estació de França             -Salou-Port Aventura  [short='R17']
   REGIONAL        escer:51T0113R15             Cunit                                   -Riba-roja d'Ebre  [short='R15']
   REGIONAL        escer:51T0114R15             Riba-roja d'Ebre                        -Cunit  [short='R15']
+  REGIONAL        escer:51T0115R14             Lleida                                  -Cunit  [short='R14']
+  REGIONAL        escer:51T0116R14             Cunit                                   -Lleida  [short='R14']
   REGIONAL        escer:51T0119R11             Barcelona-Sant Andreu                   -Girona  [short='R11']
   REGIONAL        escer:51T0120R11             Girona                                  -Barcelona-Sant Andreu  [short='R11']
   REGIONAL        escer:51T0123R15             Reus                                    -Torredembarra  [short='R15']
@@ -772,6 +770,7 @@ Routes by service type:
   SUBURBAN        escer:10T0053C7              Principe Pio                            -Atocha  [short='C7']
   SUBURBAN        escer:10T0054C7              Atocha                                  -Principe Pio  [short='C7']
   SUBURBAN        escer:10T0059C7              Chamartín - Clara Campoamor             -Alcala de Henares  [short='C7']
+  SUBURBAN        escer:10T0060C7              Alcala de Henares                       -Chamartín - Clara Campoamor  [short='C7']
   SUBURBAN        escer:10T0061C8a             El Escorial                             -Chamartín - Clara Campoamor  [short='C8a']
   SUBURBAN        escer:10T0062C8a             Chamartín - Clara Campoamor             -El Escorial  [short='C8a']
   SUBURBAN        escer:10T0064C10             Principe Pio                            -El Escorial  [short='C10']
@@ -904,23 +903,23 @@ Routes by service type:
 
 Patterns / departures by service:
   HIGH_SPEED        249 patterns     309 departures
-  INTERCITY         149 patterns     151 departures
-  REGIONAL         1133 patterns    2019 departures
-  SUBURBAN          989 patterns    3442 departures
+  INTERCITY         145 patterns     147 departures
+  REGIONAL         1130 patterns    2015 departures
+  SUBURBAN          989 patterns    3352 departures
 
 Pipeline counters:
-  es.trips_not_on_service_day: 4778
-  escer.routes_skipped_not_rail: 55
-  escer.trips_not_on_service_day: 109454
+  es.trips_not_on_service_day: 4848
+  escer.routes_skipped_not_rail: 54
+  escer.trips_not_on_service_day: 111800
   shape_points_in: 111695
   shape_points_out: 22115
   track_legs_routed: 2269
   track_legs_straight: 405
-  trips_in: 5937
-  trips_skipped_too_short: 10
+  trips_in: 5838
+  trips_skipped_too_short: 8
 
 Longest end-to-end pattern per service (sample for checking against timetables):
-  HIGH_SPEED      Madrid-Puerta de Atocha-Almudena Grandes -> Marseille St Charles: 8h44m, 14 stops, dep 12:50 09725
+  HIGH_SPEED      Madrid-Puerta de Atocha-Almudena Grandes -> Marseille St Charles: 8h42m, 14 stops, dep 12:50 09725
   INTERCITY       Vigo Urzaiz -> Barcelona-Sants: 14h08m, 25 stops, dep 07:32 00621
   REGIONAL        Sevilla-Santa Justa -> Madrid-Atocha Cercanías: 9h46m, 25 stops, dep 10:30 35807
   SUBURBAN        La Asunción Universidad -> Bilbao la Concordia: 7h52m, 54 stops, dep 13:55
